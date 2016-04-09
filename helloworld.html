@@ -26,7 +26,6 @@
 <div id="md" style="display: none;">
 <!-- markdown -->
 ## This is the first and final one.
- 
 
 <pre>
 cli();
@@ -40,7 +39,15 @@ sti();
 </div>
 <div class="entry" id="main">
 <!-- content -->
+<h2 id="thisisthefirstandfinalone">This is the first and final one.</h2>
 
+<pre>cli();
+while(1){
+    nop();
+}
+panic("task[0] trying to sleep");
+sti();
+</pre>
 <!-- content end -->
 </div>
 <br>
